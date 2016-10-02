@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="system" method="upgrade">
+    <name>plg_system_disable_jui_bootstrap</name>
+    <version>1.0</version>
+    <creationDate>02/10/2016</creationDate>
+    <author>Jochen Wiesel</author>
+    <authorEmail>jochen@sniggle.me</authorEmail>
+    <copyright>Copyright (C) 2016 sniggle.me. All rights reserved.</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <description>PLG_SYSTEM_DISABLE_JUI_BOOTSTRAP_XML_DESCRIPTION</description>
+    <files>
+        <filename plugin="disable_jui_bootstrap">disable_jui_bootstrap.php</filename>
+        <filename>index.html</filename>
+    </files>
+    <languages folder="language">
+        <language tag="de-DE">de-DE/de-DE.plg_system_disable_jui_bootstrap.ini</language>
+        <language tag="de-DE">de-DE/de-DE.plg_system_disable_jui_bootstrap.sys.ini</language>
+        <language tag="en-GB">en-GB/en-GB.plg_system_disable_jui_bootstrap.ini</language>
+        <language tag="en-GB">en-GB/en-GB.plg_system_disable_jui_bootstrap.sys.ini</language>
+    </languages>
+    <config>
+        <fields name="params">
+            <fieldset name="advanced">
+
+            </fieldset>
+        </fields>
+    </config>
+
+</extension>
