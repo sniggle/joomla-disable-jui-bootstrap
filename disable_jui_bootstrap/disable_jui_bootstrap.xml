@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension version="3.1" type="plugin" group="system" method="upgrade">
     <name>plg_system_disable_jui_bootstrap</name>
-    <version>1.0</version>
+    <version>1.0.0</version>
     <creationDate>02/10/2016</creationDate>
     <author>Jochen Wiesel</author>
     <authorEmail>jochen@sniggle.me</authorEmail>
@@ -25,5 +25,8 @@
             </fieldset>
         </fields>
     </config>
-
+    <updateservers>
+        <server type="extension" priority="1"
+                name="Disable JUI Bootstrap Updates"><![CDATA[https://raw.githubusercontent.com/sniggle/joomla-disable-jui-bootstrap/master/updates.xml]]></server>
+    </updateservers>
 </extension>

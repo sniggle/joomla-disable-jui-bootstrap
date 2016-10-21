@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<updates>
+	<update>
+		<name><![CDATA[Disable JUI Bootstrap]]></name>
+		<description><![CDATA[System Plugin to disable the Bootstrap version shipped with Joomla!]]></description>
+		<element>disable_jui_bootstrap</element>
+		<type>plugin</type>
+		<version>1.0.0</version>
+		<infourl title="Disable JUI Bootstrap 1.0.0">https://github.com/sniggle/joomla-disable-jui-bootstrap/releases/tag/1.0.0</infourl>
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/sniggle/joomla-disable-jui-bootstrap/releases/download/1.0.0/joomla-disable-jui-bootstrap-1.0.0.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>stable</tag>
+		</tags>
+		<maintainer><![CDATA[Sniggle.me]]></maintainer>
+		<maintainerurl>http://sniggle.me/</maintainerurl>
+		<section>Updates</section>
+		<targetplatform name="joomla" version="3.3"/>
+		<client>0</client>
+		<folder>system</folder>
+	</update>
+</updates>
